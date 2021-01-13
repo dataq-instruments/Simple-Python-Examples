@@ -21,13 +21,14 @@ Examples here demonstrate how to acquire data in both ascii and binary modes
 
 **Other Examples**
 
-1) https://github.com/dataq-instruments/Python1110
+1) https://github.com/dataq-instruments/Python
 
-2) https://github.com/dataq-instruments/Simple-Python-Codes-for-DI-1110
+2) https://github.com/dataq-instruments/Python1110
 
-3) https://github.com/dataq-instruments/Python245
+3) https://github.com/dataq-instruments/Simple-Python-Codes-for-DI-1110
 
-4) https://github.com/dataq-instruments/Python
+4) https://github.com/dataq-instruments/Python245
+
 
 **Note**:
 
