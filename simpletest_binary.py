@@ -40,7 +40,7 @@ while True:
             break
         else:
             i= serDataq.in_waiting
-            if (i/numofbyteperscan)>=1:
+            if (i//numofbyteperscan)>0:
                 #we always read in scans
                 response = serDataq.read(i - i%numofbyteperscan)
 
