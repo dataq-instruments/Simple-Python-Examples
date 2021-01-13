@@ -49,7 +49,7 @@ while True:
                 
                 response2=bytearray(response)
                 
-                Channel=struct.unpack("<"+"H"*count, response2)
+                Channel=struct.unpack("<"+"h"*count, response2)
 
                 #print all
                 print (Channel)
