@@ -15,6 +15,18 @@ Examples here demonstrate how to acquire data in both ascii and binary modes
 4) From Windows Device Manager, find out the COM port of the device connected to, and modify the program accordingly<br/>
 ![alt text](https://www.dataq.com/resources/repository/matlab_devicemanager.png)
 
+**Other Examples**
+
+1) https://github.com/dataq-instruments/Python1110
+
+2) https://github.com/dataq-instruments/Simple-Python-Codes-for-DI-1110
+
+3) https://github.com/dataq-instruments/Simple-Python-Codes
+
+4) https://github.com/dataq-instruments/Python245
+
+5) https://github.com/dataq-instruments/Python
+
 **Note**:
 
 1) If you see error message complaining “failed "import serial module" or "seial doesn't have the attribue of serial", You may have multiple installations of Pythons on your PC, if that's case, please unstall all first before reinstall
