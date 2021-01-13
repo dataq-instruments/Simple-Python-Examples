@@ -10,7 +10,7 @@ Examples here demonstrate how to acquire data in both ascii and binary modes
     - python -m pip install -U pyserial --user
     - python -m pip install -U keyboard --user
 
-3) Firmware 1.35 or higher is recommended https://github.com/dataq-instruments/Firmware_Upgrade. Earlier version of firmware may not work properly at higher sample rate
+3) Firmware 1.35 or higher is recommended https://github.com/dataq-instruments/Firmware_Upgrade. Earlier version of firmware may not work properly in binary mode
 
 4) Understand the protocol, please refer to  https://www.dataq.com/resources/pdfs/misc/Dataq-Instruments-Protocol.pdf
 
