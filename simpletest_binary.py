@@ -7,7 +7,7 @@ import sys
 #
 #Press key 'x' to EXIT
 
-CONST_SER_PORT = 'COM11'   #get the com port from device manger and enter it here
+CONST_SER_PORT = 'COM10'   #get the com port from device manger and enter it here
 
 serDataq = serial.Serial(
     port = CONST_SER_PORT,
@@ -19,11 +19,20 @@ serDataq.write(b"encode 0\r")    #set up the device for binary mode
 serDataq.write(b"slist 0 0\r")   #scan list position 0 channel 0 thru channel 7
 serDataq.write(b"slist 1 1\r")   #scan list position 0 channel 0 thru channel 7
 serDataq.write(b"slist 2 2\r")   #scan list position 0 channel 0 thru channel 7
-serDataq.write(b"srate 6000\r") 
-serDataq.write(b"dec 100\r") 
+serDataq.write(b"srate 6000\r")
+serDataq.write(b"dec 100\r")
 serDataq.write(b"deca 3\r")
 serDataq.write(b"ps 0\r")        #if you modify sample rate, you need modify this accordingly
-time.sleep(1)  
+time.sleep(0.5)
+while True:
+    try:
+        i= serDataq.in_waiting
+        if i>0:
+            response = serDataq.read(i)
+            break
+    except:
+        pass
+ 
 serDataq.reset_input_buffer()
 serDataq.write(b"start\r")       #start scanning
 
