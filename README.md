@@ -45,3 +45,7 @@ Examples here demonstrate how to acquire data in both ascii and binary modes
 2) To single step through PY codes, follow
 https://stackoverflow.com/questions/4929251/how-to-step-through-python-code-to-help-debug-issues
 
+3) If you have trouble using Python, you can use any serial terminal program (such as TeraTerm) to connect to your device (DI-2108 in the following example) and type in the commands manually, as following
+
+   ![alt text](https://www.dataq.com/resources/images/cdc2108.png)
+
